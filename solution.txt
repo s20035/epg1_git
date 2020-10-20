@@ -1,0 +1,11 @@
+git init
+git clone https://github.com/s20035/epg1_git.git
+git checkout -b hw-s20035
+git add .
+git rebase rebase-me
+git merge origin/rebase-me
+git merge origin/merge-me
+nano README.md
+git merge origin/merge-me
+git commit -m "merge commit"
+nano solution.txt
